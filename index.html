@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF8">
+<title>calculator</title>	
+</head>
+<body>
+	<!--Antiminiuc Ion-->
+	<center>
+	<h1>Calculator JavaScript</h1>
+	<hr>
+<form>
+<input type="text" id="f1" required patern="[0-9]+" ><span id="operatie">+</span>
+<input type="text" id="f2" required patern="[0-9]+" ><span id="egal">=</span>
+<input type="text" id="out" >
+<br><br><br><br>
+<input type="reset" value="C">
+<input type="button" value="+"    onclick="add('+')">
+<input type="button" value="-"    onclick="add('-')">
+<input type="button" value=":"    onclick="add('/')">
+<input type="button" value="x"    onclick="add('*')">
+<input type="button" value="radical" onclick="radical()">
+<input type="button" value="calculeaza" onclick="calc()">
+
+
+
+</form>
+</center>
+
+<script type="text/javascript" src="javascript.js"></script>
+
+	</body>
+</html>
